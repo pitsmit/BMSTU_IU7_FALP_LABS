@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "SBCL Debug",
+        "type": "lisp",
+        "request": "launch",
+        "program": "sbcl",
+        "args": ["--load", "${file}"],
+        "stopOnEntry": false,
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }

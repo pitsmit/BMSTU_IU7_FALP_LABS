@@ -1,0 +1,1 @@
+(print (cdr '(cons is short for ans)))

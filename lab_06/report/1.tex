@@ -1,0 +1,144 @@
+\chapter{Лабораторная работа №6}
+
+\textbf{Смирнов Пётр, ИУ7-65Б}
+
+\section{Номер 1}
+
+Написать хвостовую рекурсивную функцию my-reverse, которая развернёт верхний
+уровень своего списка-аргумента lst.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../1.lisp}
+    \end{listingbox}
+    \label{lst:1}
+\end{figure}
+
+\section{Номер 2}
+
+Написать функцию, которая возвращает первый элемент списка-аргумента, который 
+сам является непустым списком.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../2.lisp}
+    \end{listingbox}
+    \label{lst:2}
+\end{figure}
+
+\section{Номер 3}
+
+Напишите рекурсивную функцию, которая умножает на заданное число-аргумент 
+все числа из заданного списка-аргумента, когда 
+
+а) все элементы списка -- числа;
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../3-a.lisp}
+    \end{listingbox}
+    \label{lst:3}
+\end{figure}
+
+б) элементы списка -- любые объекты.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../3-b.lisp}
+    \end{listingbox}
+    \label{lst:3}
+\end{figure}
+
+\section{Номер 4}
+
+Напишите функцию select-between, которая из списка-аргумента, содержащего
+только числа, выбирает только те, которые расположены между двумя указанными 
+границами-аргументами и возвращает их в виде списка, упорядоченного по возрастанию.
+(+ 2 балла)
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../4.lisp}
+    \end{listingbox}
+    \label{lst:4}
+\end{figure}
+
+\section{Номер 5}
+
+Написать рекурсивную версию (с именем rec-add) вычисления суммы чисел заданного
+списка:
+
+а) одноуровнего смешанного;
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../5-a.lisp}
+    \end{listingbox}
+\end{figure}
+
+б) структурированного.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../5-b.lisp}
+    \end{listingbox}
+\end{figure}
+
+\section{Номер 6}
+
+Написать рекурсивную версию с именем recnth функции nth.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../6.lisp}
+    \end{listingbox}
+    \label{lst:6}
+\end{figure}
+
+\section{Номер 7}
+
+Написать рекурсивную функцию allodd, которая возвращает t, когда все элементы
+списка нечётные.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../7.lisp}
+    \end{listingbox}
+    \label{lst:7}
+\end{figure}
+
+\section{Номер 8}
+
+Написать рекурсивную функцию, которая возвращает первое нечётное число из списка
+(структурированного), возможно создавая некоторые вспомогательные функции.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../8.lisp}
+    \end{listingbox}
+    \label{lst:8}
+\end{figure}
+
+\section{Номер 9}
+
+Используя cons-дополняемую рекурсию с одним тестом завершения, 
+написать функцию, которая получает как аргумент список чисел, а возвращает
+список квадратов этих чисел в том же порядке.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../9.lisp}
+    \end{listingbox}
+    \label{lst:9}
+\end{figure}
+
+\section{Номер 10}
+
+Преобразовать структурированный список в одноуровневый.
+
+\begin{figure}[H]
+    \begin{listingbox}{}
+        \lstinputlisting[language=Lisp]{../10.lisp}
+    \end{listingbox}
+    \label{lst:10}
+\end{figure}
